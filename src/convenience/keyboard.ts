@@ -11,6 +11,11 @@ import {
 type KeyboardButtonSource = string | KeyboardButton;
 type KeyboardSource = KeyboardButtonSource[][] | Keyboard;
 /**
+const keyboard = new Keyboard()
+  .text(Mulai Bekerja).row()
+  .text(Selesai Bekerja).row()
+  .text("Merokok")
+  .resized();
  * Use this class to simplify building a custom keyboard (something like this:
  * https://core.telegram.org/bots/features#keyboards).
  *
